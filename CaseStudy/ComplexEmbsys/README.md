@@ -48,6 +48,22 @@ on that. Using MEMS sensor head coordinates are captured and the tilt is calcula
 on the tilt, output action is performed. After every action acknowledgement of the completion
 is provided through the means of audio.
 
+## High Level Requirements:
+
+|RID|Description|
+|HLR1|Sensor Should record the tilt of the head|
+|HLR2|Sensor data should be provided to the MicroController|
+|HLR3|Based on the code the controller should perform assigned operation|
+
+## High Level Requirements:
+
+|RID|Description|
+|LLR1|The data is interpreted by the microcontroller|
+|LLR2|By taking in consideration the ghost tilts the sensitivity is set in code for the data received from the sensor|
+|LLR3|Based on the data the operation is performed and acknowledged through a speaker|
+
+
+
 ## Future scope
 
 We can use magnetometer which will add another three axis making it a 9 axis sensor. Using
