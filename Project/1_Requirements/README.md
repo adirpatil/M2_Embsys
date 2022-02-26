@@ -18,11 +18,13 @@ This is also cost as well as energy efficient.
 
 ## High Level Requirements:
 |RID|DESCRIPTION|
+|:--|:----------|:-----|
 |HLR1|To turn on the light when the room light intensity is under Specific level|
 |HLR2|To change the speed of fan based on the temperature|
 
 ## Low Level Requirements:
 |RID|DESCRIPTION|
+|:--|:----------|:-----|
 |LLR1|To turn of the bulb when the resistance of LDR increases the light will be turned on|
 |LLR2|To control the speed of DC motor with respect to the temperature variatons from the temperature sensor|
 
