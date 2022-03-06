@@ -1,4 +1,4 @@
-# **Implementation Details**
+# **Architecture Details**
 
 ## Sensors Used:
 ### **LDR**-
