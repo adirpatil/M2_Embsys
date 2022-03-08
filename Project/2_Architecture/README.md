@@ -70,7 +70,7 @@ The data is in the form of resistor reading, using the resistor value and using 
 temperature value. Then the temperature and the resistor value both are dsiplayed on the LCD which is connected to the AVR.
 The temperature value is then compared with some value and if the temperature exceeds some particular value then the AirCon is 
 switched on automatically.
-=======
+
 
 
 ![Block_Diagram](https://user-images.githubusercontent.com/47058068/157287824-f86a74f4-e910-4676-976b-6c9bb02011c0.png)
