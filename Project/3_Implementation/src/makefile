@@ -1,7 +1,7 @@
 #Main application file name
 MAIN_APP = main
 #Main hex file path in windows format
-MAIN_HEX_PATH = D:\Internship\LTTS\M2_Embsys\Project\3_Implementation\$(MAIN_APP).hex
+MAIN_HEX_PATH = D:\Internship\LTTS\M2_Embsys\Project\3_Implementation\src\$(MAIN_APP).hex
 
 # Compiler and other Section
 CC = avr-gcc
