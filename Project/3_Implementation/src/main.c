@@ -44,24 +44,38 @@ double getTemp()
 
     return Thermister;
 }
+void led_on()
+{
+    PORTC = 0b00000001;
+    _delay_ms(100);
+}
+void led_off()
+{
+    PORTC = 0b00000000;
+    _delay_ms(100);
+}
 
 int main(void)
 {
     char array[20], ohm = 0xF4;
     double temp;
-    DDRC = 0xff; //For realay on/off (LED)
+    DDRC = 0xff; //For relay on/off (LED)
     LCD_Init();  /* initialize 16x2 LCD */
     ADC_Init();  /* initialize ADC */
     LCD_Clear(); /* clear LCD */
     LCD_String_xy(0, 0, "Temp: ");
     LCD_String_xy(1, 0, "R: ");
+    //PORTC = 0b00000000;
     while (1)
     {
         temp = getTemp(); /* store temperature value on temp resistor */
         if(temp > 20)
-            PORTC = 0xff; 
+        {
+            _delay_ms(100);
+            led_on();
+        }
         else    
-            PORTC = 0x00;
+            led_off();
 
         memset(array, 0, 20);
         dtostrf(temp, 3, 2, array);
