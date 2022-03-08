@@ -24,8 +24,8 @@ This is also cost as well as energy efficient.
 ## Low Level Requirements:
 |RID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
-|LLR1|To interface Temperature Sensor(Thermistor) with AVR|
-|LLR2|To interface LCD Display with AVR|
-|LLR3|To interface AirCon(Here depcited by a LED) based in Thermistor reading|
+|LLR1|To interface Temperature Sensor(Thermistor) with AVR|Implemented|
+|LLR2|To interface LCD Display with AVR|Implemented|
+|LLR3|To interface AirCon(Here depcited by a LED) based in Thermistor reading|Implemented|
 
 
