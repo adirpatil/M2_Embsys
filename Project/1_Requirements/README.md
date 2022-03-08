@@ -6,6 +6,11 @@ The main motive of this project is to ease the work of user and automate the tas
 and time of the day.
 In this project the home systems of a AirCon is automated based on the room temperature and displayed on a LCD display.
 
+## Softwares Used:
+* Visual Studio
+* SimulIDE
+
+
 ## Objectives:
 1. To display the temperature on the LCD display.
 2. To automate the AirCon based on the room temperature.

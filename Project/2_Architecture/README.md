@@ -67,7 +67,7 @@ A 16x2 LCD display is used to display. This display can provide 2 lines of 16 ch
 
 The thermistor will capture the analog data from the environment which will be converted to digital data using ADC port on ATMEGA32.
 The data is in the form of resistor reading, using the resistor value and using the formula the resistor value is then converted into
-temperature value. Then the temperature and the resistor value both are dsiplayed on the LCD which is connected to the AVR.
+temperature value. Then the temperature and the resistor value both are displayed on the LCD which is connected to the AVR.
 The temperature value is then compared with some value and if the temperature exceeds some particular value then the AirCon is 
 switched on automatically.
 
