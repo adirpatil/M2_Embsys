@@ -19,3 +19,4 @@ connected to it.
 There would be one override switch which will act as an external interrupt for the circuit, which 
 can turn on or turn off the appliances based on their current state.
 
+https://github.com/adirpatil/M2_Embsys/issues/1#issue-1162876580
