@@ -1,0 +1,1 @@
+[Smart Home Automation.docx](https://github.com/adirpatil/M2_Embsys/files/8208929/Smart.Home.Automation.docx)
