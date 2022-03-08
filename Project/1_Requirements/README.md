@@ -20,6 +20,30 @@ It makes the users work easy by automating the tasks as he/she doesn't need to m
 Also the power can be saved when the appliances are kept powered on un-necessarily.
 This is also cost as well as energy efficient.
 
+## SWOT
+### Strengths
+* Easy to understand the application and use it.
+* Totally automated dont have the manually switch on the Aircon.
+### Weakness
+* The temperature detected is not accurate in this model and so cant be reliable when used for sensitive applications. 
+### Opportunities
+* Used In Homes,Offices,High Buildings
+### Threats
+* Other sensors can be used which have greater efficiency than thermistor
+* Many other similar applications available
+
+## 4W's & 1H
+### Who
+* Can be used by users having an Aircon.
+### What
+* This is a smart automated system which turns on automatically when there is increase in temperature.
+### When
+* When the temperature falls below certain level desired by the user.
+### Where
+* Used In Homes,Offices,High Buildings.
+### How
+* Developed using AVR based ATMEGA32 and implemented on SimulIDE.
+
 ## High Level Requirements:
 |RID|DESCRIPTION|STATUS|
 |:--|:----------|:-----|
